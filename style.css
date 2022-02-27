@@ -7,6 +7,7 @@
 }
 body{
     background-color:#e5e5e5;
+    
 }
 h1, h2, h3, h4, h5, h6, p{
     font-family: 'Poppins', sans-serif;
@@ -48,4 +49,106 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .hero_img img{
     width: 426px;
+}
+#mission_title{
+    text-align: center;
+    margin: 60px 0;
+    letter-spacing: 2px;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.mission_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.my_target img{
+    width: 145px;
+}
+.mission{
+    background-color: #EDF5F6;
+    border-radius: 16px;
+    padding: 10px;
+}
+.vission{
+    background-color: #FFEEEE;
+    border-radius: 16px;
+    padding: 10px;
+}
+.goal{
+    background-color: #FFF4D6;
+    border-radius: 16px;
+    padding: 10px;
+}
+#develop_box{
+    margin-top: 70px;
+}
+.develop_area{ 
+    padding: 40px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: left center;
+}
+.develop_container{
+    display: flex;
+    align-items: center;
+}
+.develop_img img{
+    width: 400px;
+    margin-right: 80px;
+}
+.develop_contents{
+    width: 654px;
+}
+#develop_des{
+    margin: 10px 0;
+}
+#global_area{
+    margin-top: 30px;
+}
+.global_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.globl_content{
+    width: 621px;
+    margin-right: 70px;
+}
+.global_img img{
+    width: 400px;
+}
+#global_des{
+    margin: 15px 0;
+}
+.corona_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corona_img img{
+    width: 340px;
+    margin-right: 50px;
+}
+.corona_contents{
+    width: 550px;
+}
+#corona_des{
+    margin: 20px 0;
+}
+.footer_area{
+    background-color: black;
+    height: 200px;
+    position: relative;
+}
+.footer_content{
+    height: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 4;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
